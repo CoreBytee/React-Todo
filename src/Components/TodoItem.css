@@ -1,0 +1,38 @@
+.TodoItem {
+  padding: 10px;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: white 1px solid;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.TodoItem .indicator {
+  width: 10px;
+  height: calc(100% + 20px);
+  margin-right: 10px;
+}
+.TodoItem .data {
+  display: flex;
+  flex-direction: column;
+}
+.TodoItem .data .title {
+  font-weight: bold;
+}
+.TodoItem .data p {
+  margin: 0px;
+}
+.TodoItem .actions {
+  margin-left: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.TodoItem .actions button {
+  appearance: none;
+  border: none;
+  background: none;
+}
